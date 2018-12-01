@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.lorenz.game</groupId>
+	<artifactId>game</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Game</name>
+	<description>Test for Game</description>
+	
+	<pluginRepositories>
+	</pluginRepositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+		</dependency>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>$(log4j.version)</version>
+		</dependency>
+	</dependencyManagement>
+
+	<properties>
+		<log4j.version>2.11.1</log4j.version>
+	</properties>
+	
+	<contributors>
+		<contributor>
+			<name>Andreas Lorenz</name>
+			<email>info@andreaslorenz.tech</email>
+			<url>andreaslorenz.tech</url>
+			<roles>
+				<role>Project Manager</role>
+				<role>Designer</role>
+				<role>Programmer</role>
+			</roles>
+		</contributor>
+	</contributors>
+
+</project>
